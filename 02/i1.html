@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Programové a Datové soubory</title>
+        <link rel="icon" href="../images/logo2.png">
+        <link rel="stylesheet" href="../css/mystyle.css">
+        <link rel="stylesheet" href="../css/bar.css">
+        <link rel="stylesheet" href="../css/modal.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/9f036d34bc.js" crossorigin="anonymous"></script>
+          
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="i1.html" id="about">
+            <table>
+                <tr>
+                    <td>Data a Programy</td>
+                    <td class="padd-td" style="padding-left: 28px;"><div class="fa-solid fa-code"></div></td>
+                </tr>
+            </table>
+            </a>
+        <a href="i2.html" id="blog" >
+            <table>
+                <tr>
+                    <td>Emulace a Virtualizace</td>
+                    <td class="padd-td" style="padding-left: 12px;"><div class="fa-solid fa-server"></div></td>
+                </tr>
+            </table></a>
+        <a href="i3.html" id="projects">
+            <table>
+                <tr>
+                    <td>Cloudová Řešení</td>
+                    <td class="padd-td" style="padding-left: 32px;"><div class="fa-solid fa-cloud-arrow-up"></div></td>
+                </tr>
+            </table></a>
+        <a href="i4.html" id="contact">
+            <table>
+                <tr>
+                    <td>Softwarové Licence</td>
+                    <td class="padd-td" style="padding-left: 12px;"><div class="fa-solid fa-scroll"></div></td>
+                </tr>
+            </table></a>
+        </div>
+
+        <div id="mySidena" class="sidenav">
+    
+            <a href="../index.html">
+                <table>
+                <tr>
+                <td>Home INDEX</td>
+                <td style="padding-left: 30px;"><div class="fa-solid fa-house"></div></td>
+                </tr>
+            </table>
+            </a>
+        
+        </div>
+
+    <header>
+        <h1>Programové a Datové soubory</h1>
+    </header>
+
+<main>
+            <h3>SOUBOR</h3>
+            
+            
+                (file) je množina souvisejících dat uložených na diskové jednotce.
+                    <ul>
+                        <li> Název souboru je obvykle tvořen jménem (ve Windows až 254
+                            znaků) a příponou, která naznačuje typ souboru. 
+                            <br>
+                        <h4> K dalším vlastnostem souboru patří : </h4>
+                                <ol style="margin-top: 20px;">
+                                <li>jeho velikost</li>
+                                <li>autor (vlastník)</li>
+                                <li>datum vytvoření</li>
+                                <li>datum změny</li>
+                                <li>atributy</li>
+                                <li>přístupová práva</li>
+                            </ol>
+                                
+                                <br>
+                        </table>
+                            K přehlednější práci se soubory slouží systém adresářů či složek (<i>directories, folders</i>).
+                            Adresáře
+                            tvoří na disku typicky <b>hierarchickou strukturu </b>(<i>tree - strom</i>); 
+                            <br>základem je tzv. kořenový
+                            adresář
+                            <strong>(root)</strong> označený
+                            symbolem : <table style="margin-left: 400px;">
+                                <tr><td><b>„/“ </b>(<b>Unix, Linux</b>)</td></tr>
+                                <tr><td><b>„\“</b> (<b>Windows</b>).</td></tr>
+                                
+                            </table>
+                            <br> Každý adresář může
+                            obsahovat soubory i podadresáře (<i>subdirectories</i>).
+                        </li>
+                    </ul>
+
+                    <table class="Ctable">
+                       <tr>
+                        <td><img src="../images/icons.ipg.jpg" alt="icons" width="400" al>
+                        <figure><figcaption>Příklady Typů souborů</figcaption></figure>
+                    </td></tr> 
+                    </table>
+                    
+                <h3>CESTA</h3>
+                
+                    vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře:<i><b id="A11">C:\XAMPP\mysql\bin\mysql.exe</b></i>
+                
+                    <br>
+                        <table class="Ctable"><tr><td>
+                        <img id="myImg" src="../images/pr-file-path.jpg" alt="path win example" width="400px" >
+                        <figure><figcaption>
+                            path win regedit
+                        </figcaption>
+                    </figure>
+                    </td></tr></table>
+
+
+                        <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01" src="--" alt="--">
+                        <div id="caption"></div>
+                        </div>
+                        
+
+
+                    <ul><dd><h4>Při operacích se soubory využíváme někdy :</h4>
+                        <li> symbol <B>*</B> nahrazuje v názvu libovolný počet znaků (např. <i> *.*</i>)</li>
+                        <li>symbol ? nahrazuje jeden libovolný znak (např.<i> s?s.txt</i>)</li>
+                        <br>
+                        <b>Programové soubory</b> - obsahují instrukce, podle nichž procesor ve
+                        spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. <br>
+                        Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve
+                        strojovém kódu pro danou platformu), nebo ve <b>zdrojovém kódu</b>, obsahujícím příkazy určitého
+                        programovacího jazyka. <br><br> Mezi programové
+                        soubory můžeme zařadit také <b>skripty</b>, soubory instrukcí v textové podobě, které ke svému spuštění
+                        vyžadují speciální program - <b>interpret</b>.
+                        <br>
+                        Větší programy jsou tvořeny <b>programovými knihovnami</b> (<i>runtime libraries</i>),
+                        speciálními soubory s připravenými funkcemi, které programy využívají pro
+                        svůj běh. <br>
+                        Ve Windows to jsou např. soubory <b>DRV</b> a <b>SYS</b> (obsahující zejména
+                        ovladače čili <i>drivery</i>, ale i systémové funkce), nebo také <b>DDL</b> (dynamic linking
+                        library - dynamicky linkované knihovny), které mohou být podle potřeby za
+                        běhu (dynamicky) připojeny k jednomu i více programům.
+                        Některé soubory s <b>tzv. spu</b>
+                    
+                    </dd>
+                </ul>
+                
+                    
+                    
+
+                        <script>
+                            var modal = document.getElementById("myModal");
+                            var img = document.getElementById("myImg");
+                            var modalImg = document.getElementById("img01");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            captionText.innerHTML = this.alt;
+                            }
+                            var span = document.getElementsByClassName("close")[0];
+                            span.onclick = function() { 
+                            modal.style.display = "none";
+                            }
+                            </script>
+
+                    
+                    
+                
+                
+
+        </main>
+    
+        <hr>
+        
+        <FOOTEr>
+            <p> &copy; 2022-autor:<strong> Štěpán Balner</strong> <strong>IT1</strong> &#174; </p>
+        </FOOTEr>
+
+    </body>
+
+</html>

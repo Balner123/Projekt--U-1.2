@@ -1,0 +1,164 @@
+
+
+b{
+
+  color: rgb(33, 6, 185);
+  font-size: 110%;
+}
+i{
+  color: rgb(153, 74, 74);
+  font-size: 95%;
+}
+strong{
+font-size: 110%;
+}
+
+.padd-td{
+    
+
+    font-size: 150%;
+}
+main{
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1 {
+font-size: 3em;
+text-align: center;
+color: rgb(0, 0, 0);
+background-color: #dfdede;
+border-radius: 5px;
+padding: 30px;
+margin-bottom: 0px;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  margin: 20px auto;
+  min-width: 800PX;
+Width: 75%;
+align-self: right;
+background-image: url(../images/vecteezy_abstract-3d-design-background-with-technology-dot-and-line_7160635.jpg);
+line-height: 135%;
+}
+
+
+h3{
+text-decoration: underline;
+
+}
+a{
+text-decoration-color: blue;
+
+}
+a.hover{
+    color: rgb(111, 111, 111);
+}
+p{
+    text-align: left;
+}
+nav{
+    align-content: flex-end;
+}
+
+#A11{
+background-color: rgb(212, 216, 216);
+border-radius : 3px;
+padding : 2px;
+}
+
+
+
+* {box-sizing: border-box;}
+
+.container {
+  display: block;
+  position: relative;
+  width: 50%;
+  max-width: 5000px;
+}
+
+.image {
+  display: block;
+  width: auto;
+  display: flex;
+  
+}
+
+.overlay {
+  position: relative; 
+  bottom: 0; 
+  background: rgb(57, 57, 57);
+  background: rgba(91, 91, 91, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 1px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+article{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+
+
+table th{
+  background-color: rgb(117, 171, 150)
+
+}
+.table1{
+  border: 0;
+  box-align:center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+
+figcaption{
+  
+  font-size: 10px;
+}
+
+.Atable{ 
+  margin: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 20px;
+  box-align : center
+}
+
+.Btable{
+  margin-top: 35px;
+  margin-left:  200px;
+  border: none;
+  align-self: center;
+}
+.Ctable{
+  margin-top: 35px;
+  margin-left:  100px;
+  border: none;
+  align-self: center;
+}
+.Dtable{
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  
+}
