@@ -1,9 +1,7 @@
 
 
 @media only screen and (max-width: 600px) {
-body {
- background-color: rgb(94, 94, 94);
-}
+
 .container {
  width: 100%;
 }
@@ -19,19 +17,42 @@ body {
   height: 200px;
   padding: 20px;
   margin: 0px ;
-  background-color: #cdcdcd;
+  background-color: rgb(255, 255, 255);
   
   border-radius: 5px;
   min-width: 28.3%;
+
 }
-.Dnadpis{
-  font-size: 150%;
-  padding: 10px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
+.content-box2 {
+  display: block;
+   width: 225px;
+   height: 40px;
+   padding: 5px;
+   text-align: center;
+   margin: 0px ;
+   border-radius: 5px;
+   min-width: 28.3%;
+   font-size: 30px;
+   color: white;
+
 }
+
+.boxtext1{
+  background-color: #04AA6D;
+}
+.boxtext2{
+  background-color: #2196F3;
+}
+.boxtext3{
+  background-color: #f44336;
+}
+.boxtext4{
+  background-color: #555;
+}
+
 #AWK{
-  background-color: white;padding: 20px;
+  margin-top: 5px;
+  background-color: rgb(186, 201, 208);padding: 20px;
   border-radius: 5px;
 
 }

@@ -1,5 +1,7 @@
 
-
+footer{
+  text-align: center;
+}
 b{
 
   color: rgb(33, 6, 185);
@@ -30,10 +32,11 @@ h1 {
 font-size: 3em;
 text-align: center;
 color: rgb(0, 0, 0);
-background-color: #dfdede;
+background-color: #f4f4f4;
 border-radius: 5px;
 padding: 30px;
 margin-bottom: 0px;
+margin-top: 5px;
 }
 body{
   font-family: 'PT Sans', sans-serif;

@@ -68,7 +68,7 @@
         Licence je většinou nepřenosná, a proto není možné tuto licenci někomu dalšímu prodat nebo darovat.
         </LI></ul>
 
-        <button type="button" class="collapsible"><strong>MULTILICENCE</strong></button><div class="content"><ul><li>Při koupi programu běžně získává uživatel oprávnění provozovat program na jednom počítači. 
+        <button type="button" class="collapsible2"><strong>MULTILICENCE</strong></button><div class="content"><ul><li>Při koupi programu běžně získává uživatel oprávnění provozovat program na jednom počítači. 
             V případech hromadného využití programu (firmy, školy ...) stačí koupit jedno balení programu a k němu vícenásobnou licenci pro další počítače, která bývá cenově výhodnější variantou. 
         </li></ul>
 
@@ -79,7 +79,7 @@
         </li></ul>
 
 </div>
-        <button type="button" class="collapsible"><strong>OEM</strong></button><div class="content"><ul><li>(Original Equipment Manufacturer = původní výrobce zařízení). 
+        <button type="button" class="collapsible2"><strong>OEM</strong></button><div class="content"><ul><li>(Original Equipment Manufacturer = původní výrobce zařízení). 
             Touto zkratkou se označují výrobky, které jsou určeny k zabudování jako komponenty (součásti) do jiných zařízení. 
             Jedná se například o programy, které jsou nabízeny pouze současně s hardware za sníženou cenu.
         </li></ul>
@@ -88,7 +88,7 @@
         </li></ul>
 </div>
         
-        <button type="button" class="collapsible"><strong>TRIAL (verze)</strong></button>
+        <button type="button" class="collapsible2"><strong>TRIAL (verze)</strong></button>
         <div class="content"><ul><li>verze většinou umožňují plnohodnotnou práci včetně ukládání i tisku, ale jen po určitou dobu. 
             Po uplynutí této doby program nelze spustit ani znovu nainstalovat.              
         </li></ul>
@@ -97,7 +97,7 @@
             Poté smí program legálně užívat a autor k němu často pošle stručný manuál, případně i novou verzi programu.          
         </li></ul>
 </div>     
-<button type="button" class="collapsible"><strong>FREEWARE</strong></button><div class="content"><ul><li>Doslova lze název této skupiny programů přeložit jako volné zboží. Program je možné používat a rozšiřovat zdarma, požaduje se pouze dodržování autorských práv. 
+<button type="button" class="collapsible2"><strong>FREEWARE</strong></button><div class="content"><ul><li>Doslova lze název této skupiny programů přeložit jako volné zboží. Program je možné používat a rozšiřovat zdarma, požaduje se pouze dodržování autorských práv. 
             Nesmí se zahrnovat do komerčně šířených programů a nesmí být změněn. Někdy je jako freeware šířen i velmi kvalitní program a po jeho hromadném rozšíření se z něj může stát program šířený komerčně.
         </li></ul>
 </div>
@@ -142,7 +142,7 @@ Každý ho také může vylepšit, opravit v něm chybu, použít ho ve svém pr
 <br><br>
 
 Přesné podmínky pak stanovuje licence GPL (<i>General Public Licence</i> - všeobecná veřejná licence). 
-Nejrozšířenější takovou licencí je <b>GNU/GPL</b> (GNU General Public Licence). Prvními vývojáři byli nadšenci z prostředí především amerických univerzit, studenti i zaměstnanci, a dodnes je akademická půda silnou základnou <b>Open Source</b>.
+Nejrozšířenější takovou licencí je <b>GNU/GPL</b> (<i>GNU General Public Licence</i>). Prvními vývojáři byli nadšenci z prostředí především amerických univerzit, studenti i zaměstnanci, a dodnes je akademická půda silnou základnou <b>Open Source</b>.
 Mnoho komerčních firem platí své vývojáře za práci na Open Source a přispívá finančně celé komunitě. 
 <br><br>
 
@@ -151,7 +151,7 @@ Vlády některých zemí (např. Číny a Japonska) sledují se znepokojením do
     </main>
     <hr>
         <FOOTEr>
-            <p> &copy; 2022-autor:<strong> Štěpán Balner</strong> <strong>IT1</strong> &#174; </p>
+            &copy; 2022-autor:<strong> Štěpán Balner</strong> <strong>IT1</strong> &#174;
         </FOOTEr>
 
 
@@ -170,5 +170,22 @@ Vlády některých zemí (např. Číny a Japonska) sledují se znepokojením do
             });
             }
         </script>
+
+<script>var coll = document.getElementsByClassName("collapsible2");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>
+
 </body>
 </html
