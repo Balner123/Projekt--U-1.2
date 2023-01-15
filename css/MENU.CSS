@@ -56,3 +56,6 @@
   border-radius: 5px;
 
 }
+h2 > a{
+  text-decoration: none;
+}
